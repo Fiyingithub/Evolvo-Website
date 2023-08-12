@@ -1,0 +1,253 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;600;700&display=swap');
+*,*::before,*::after{
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    /* background-color: rgb(148, 128, 100); */
+}
+
+html{
+    scroll-behavior: smooth ;
+}
+
+:root{
+    --lg-container-width: 80%;
+    --md-container-width: 90%;
+    --sm-container-width: 94%;
+}
+
+.btn{
+    /* margin: 2rem; */
+    padding: 0.5rem 1rem;
+    background-color: #00BFD8;
+    border-radius: 2rem;
+    width: max-content;
+    color: white;
+}
+
+h1{
+    font-size: 2.7rem;
+
+}
+
+h2{
+    font-size: 2.3rem;
+}
+
+h3{
+    font-size: 1.8rem;
+}
+
+h4{
+    font-size: 1.4rem;
+}
+
+.container{
+    margin: 0 auto;
+    width: var(--lg-container-width);
+}
+
+img{
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+body{
+    color: black;
+    background-color: rgba(0, 0, 0, 0.699);
+    width: 100vw;
+    height: 100vh;
+
+}
+
+main{
+    background: url("./images/header-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+nav{
+    display: grid;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 3.5rem;
+    background-color: rgb(17, 61, 59);
+}
+
+.nav__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img{
+    width: 5rem;
+}
+
+.menu-links{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    font-weight: 500;
+    list-style: none;
+}
+
+a{
+    color: white;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10rem;
+    gap: 8rem;
+}
+
+b{
+    color: rgb(127, 218, 248);
+}
+
+.header__left{
+    width: 50%;
+}
+
+.header__left p{
+    margin: 1.5rem 0 2rem;
+    width: 85%;
+}
+
+
+.header__right-img img{
+width: 33rem;
+}
+
+
+section{
+background-color: azure;
+}
+
+.trusted{
+ text-align: center;
+ padding: 4rem 0;
+}
+
+.support{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 6rem ;
+}
+
+
+.growth{
+    text-align: center;
+    padding: 4rem 0;
+    font-size: 1.3rem;
+}
+
+.services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    padding: 4rem 0;
+    
+}
+
+.analysis{
+    background-color: rgb(224, 237, 248);
+    box-sizing: border-box;
+    padding: 2rem;
+}
+
+.scan{
+    background-color: rgb(224, 237, 248) ;
+    box-sizing: border-box;
+    padding: 2rem; 
+}
+
+.plan{
+    background-color:  rgb(224, 237, 248);
+    box-sizing: border-box;
+    padding: 2rem;
+}
+
+.services img{
+    padding: 3rem;
+}
+
+.services h4{
+    padding: 1rem 0;
+}
+
+.details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8rem 0;
+    gap: 8rem;
+}
+
+.design__left{
+    width: 50%;
+}
+
+.design__right img{
+    width: 30rem;
+}
+
+.design__left p{
+    margin: 1.5rem 0 2rem;
+    width: 98%;
+}
+
+.optimize{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8rem 0;
+    gap: 8rem;
+}
+
+.terms__policy{
+    display: flex;
+    gap: 1.5rem;
+}
+
+.policy__left img{
+    width: 30rem;
+}
+
+.policy__right{
+    width: 40%;
+    
+}
+
+.policy{
+    padding: 2rem 0;
+    list-style: disc;
+}
+
+.policy-btn{
+    background-color: transparent;
+    color: grey;
+    box-shadow: 0 0 2px gray ;
+}
+
+.policy span{
+    display: flex;
+    gap: 1rem;
+    margin: 0.5rem 0;
+}
+
+

@@ -6,7 +6,7 @@
     border: none;
     outline: none;
     text-decoration: none;
-    list-style: none;
+    /* list-style: none; */
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
     /* background-color: rgb(148, 128, 100); */
@@ -165,21 +165,21 @@ background-color: azure;
 }
 
 .analysis{
-    background-color: rgb(224, 237, 248);
     box-sizing: border-box;
     padding: 2rem;
+    box-shadow: 0 0 2px gray ;
 }
 
 .scan{
-    background-color: rgb(224, 237, 248) ;
     box-sizing: border-box;
-    padding: 2rem; 
+    padding: 2rem;
+    box-shadow: 0 0 2px gray ; 
 }
 
 .plan{
-    background-color:  rgb(224, 237, 248);
     box-sizing: border-box;
     padding: 2rem;
+    box-shadow: 0 0 2px gray ;
 }
 
 .services img{
@@ -235,7 +235,7 @@ background-color: azure;
 
 .policy{
     padding: 2rem 0;
-    list-style: disc;
+    list-style: none;
 }
 
 .policy-btn{
@@ -249,5 +249,81 @@ background-color: azure;
     gap: 1rem;
     margin: 0.5rem 0;
 }
+
+.pricing{
+    text-align: center;
+    padding: 4rem 0;
+    font-size: 1.3rem; 
+}
+
+.pricing-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    padding: 4rem 0;   
+}
+
+.starter{
+    box-sizing: border-box;
+    padding: 2rem;
+    box-shadow: 0 0 2px gray ;
+}
+
+.medium{
+    box-sizing: border-box;
+    padding: 2rem;
+    box-shadow: 0 0 2px gray ;
+}
+
+.complete{
+    box-sizing: border-box;
+    padding: 2rem;
+    box-shadow: 0 0 2px gray ;
+}
+
+.amount{
+    box-sizing: border-box;
+    padding: 2rem 0;
+    box-shadow: 0 2px gray;
+}
+
+.amount b{
+    font-size: x-large;
+}
+
+.pricing-list{
+    padding: 2rem 0;
+}
+
+.form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8rem 0;
+    gap: 8rem;
+}
+
+.form-left{
+    width: 45%; 
+}
+
+.form-left p{
+    margin: 1rem 0 2rem;
+    width: 98%;
+}
+
+
+/* input,textarea{
+    border: 0;
+    outline: none;
+    box-shadow: 0 0 0.5rem rgb(197, 229, 240);
+    margin: 1rem 0;
+    padding: 0.5rem 1rem;
+    font-family: inherit;
+    border-radius: 2rem !important;
+} */
+
+
 
 

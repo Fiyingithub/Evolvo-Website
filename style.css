@@ -330,6 +330,10 @@ input::placeholder, #selected,textarea{
 
 }
 
+textarea::placeholder{
+    color: white;
+}
+
 textarea{
     resize: none;
 }

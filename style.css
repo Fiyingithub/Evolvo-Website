@@ -6,7 +6,7 @@
     border: none;
     outline: none;
     text-decoration: none;
-    /* list-style: none; */
+    list-style: none;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
     /* background-color: rgb(148, 128, 100); */
@@ -283,9 +283,8 @@ background-color: azure;
 }
 
 .amount{
-    box-sizing: border-box;
     padding: 2rem 0;
-    box-shadow: 0 2px gray;
+    /* box-shadow: 0 2px gray; */
 }
 
 .amount b{
@@ -313,6 +312,34 @@ background-color: azure;
     width: 98%;
 }
 
+.form-input{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 2rem;
+}
+
+input,select,textarea{
+    padding: 0.5rem 1rem;
+    background-color: rgba(128, 128, 128, 0.603);
+}
+
+input::placeholder, #selected,textarea{
+    color: white;
+    font-weight: 600;
+
+}
+
+textarea{
+    resize: none;
+}
+
+.terms-condition{
+    display: flex;
+    gap: 0.5rem;
+    margin: 1.2rem;
+}
+
 
 /* input,textarea{
     border: 0;
@@ -324,6 +351,56 @@ background-color: azure;
     border-radius: 2rem !important;
 } */
 
+.price__header{
+    text-align: center;
+    margin-bottom: 2rem;
+}
 
+.amount{
+    text-align: center;
+}
+
+.horizontal-line{
+    background-color: rgb(182, 182, 182);
+    width: 100%;
+    height: 2px;
+    border-radius: 2rem;
+}
+
+
+.list{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 0.9rem;
+}
+
+.list span{
+    display: flex;
+    gap: 0.5rem;
+    margin: 0.8rem 0;
+}
+
+.form-btn{
+    padding: 0.5rem 8rem;
+    margin: 2rem;
+}
+
+.check-video{
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem 0;
+    gap: 8rem;
+    text-align: center;
+}
+
+.check-video img{
+    padding: 3rem 0;
+    width: 95%;
+}
+
+.check-video p{
+    width: 75%;
+    padding-left: 8rem;
+}
 
 
